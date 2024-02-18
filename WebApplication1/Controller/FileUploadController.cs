@@ -45,15 +45,6 @@ namespace WebApplication1.Controller
                             sum++;
                             var newValue = new ValueModel
                             {
-                                //StartTime = dateTime.ToUniversalTime(),
-                                //TotalTime = TimeSpan.FromSeconds(seconds),
-                                //AverageIndicatorValue = indicatorValue,
-                                //FileName = file.FileName,
-                                //MedianIndicatorValue = 0,
-                                //MaxIndicatorValue = 0,
-                                //MinIndicatorValue = 0,
-                                //RowsCount = 0,
-                                //ValueId = 1,
                                 Id = 1,
                                 FileName = file.Name,
                                 DateTime = dateTime.ToUniversalTime(),
